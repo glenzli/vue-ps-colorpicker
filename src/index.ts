@@ -1,1 +1,0 @@
-export { ColorObject } from './core'

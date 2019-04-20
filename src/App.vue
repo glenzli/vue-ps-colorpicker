@@ -80,7 +80,7 @@ html, body {
 }
 
 .shadow {
-  box-shadow: 0 0 1rem #ccc;
+  box-shadow: 0 0 1rem #333;
 }
 
 .button {

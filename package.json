@@ -1,12 +1,18 @@
 {
   "name": "vue-ps-colorpicker",
-  "version": "0.1.0",
+  "version": "1.0.0",
   "private": true,
+  "description": "A photoshope style color picker in vue.",
+  "author": "luz-alphacode <luz_alphacode@outlook.com>",
   "scripts": {
     "serve": "vue-cli-service serve",
-    "build": "vue-cli-service build",
-    "lint": "vue-cli-service lint"
+    "build": "vue-cli-service build --target lib --name vue-ps-colorpicker ./src/lib.ts",
+    "lint": "vue-cli-service lint",
+    "demo": "vue-cli-service build --dest docs --mode development"
   },
+  "main": "./dist/vue-ps-colorpicker.umd.js",
+  "typings": "dist/types/lib.d.ts",
+  "keywords": ["colorpicker", "color", "vue", "ps"],
   "dependencies": {
     "core-js": "^2.6.5",
     "direct-object": "^1.0.7",
@@ -22,5 +28,17 @@
     "less-loader": "^4.1.0",
     "typescript": "^3.4.3",
     "vue-template-compiler": "^2.5.21"
-  }
+  },
+  "files": [
+    "dist"
+  ],
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/luz-alphacode/vue-ps-colorpicker.git"
+  },
+  "bugs": {
+    "url": "https://github.com/luz-alphacode/vue-ps-colorpicker/issues"
+  },
+  "homepage": "https://github.com/luz-alphacode/vue-ps-colorpicker#readme",
+  "license": "MIT"
 }

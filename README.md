@@ -1,29 +1,39 @@
 # vue-ps-colorpicker
+vue-ps-colorpicker is Photoshop style colorpicker in vue.
 
-## Project setup
+## Install
+The recommended way to install and maintain vue-ps-colorpicker in your project is through the Node.js Pacakge Manager (NPM), simply type the npm command in your project folder:
 ```
 npm install
 ```
+## Usage
+To use vue-ps-colorpicker, you have to import the component
+```javascript
+import { PsColorpicker } from 'vue-ps-colorpicker'
 
-### Compiles and hot-reloads for development
+// ...
+export default {
+  components: { PsColorpicker },
+  // ...
+}
 ```
-npm run serve
+The colorpicker component takes only one input, with the form of **{ red: number, green: number, blue: number, alpha: number }**, each channel is range from 0 to 1.
+```html
+<ps-colorpicker :color="color"></ps-colorpicker>
 ```
+![Light](/public/light.jpg)
+The colorpicker also has a dark style, just add a dark class on the tag.
+```html
+<ps-colorpicker :color="color" class="dark"></ps-colorpicker>
+```
+![Light](/public/dark.jpg)
 
-### Compiles and minifies for production
+## Demo and Doc
+Build demo by
+```sh
+npm run demo
 ```
-npm run build
-```
+You can view the demos on my [Github Pages](https://luz-alphacode.github.io/vue-ps-colorpicker/).
 
-### Run your tests
-```
-npm run test
-```
-
-### Lints and fixes files
-```
-npm run lint
-```
-
-### Customize configuration
-See [Configuration Reference](https://cli.vuejs.org/config/).
+## License
+Distributed under the MIT license. See [LICENSE](https://github.com/luz-alphacode/vue-ps-colorpicker/blob/master/LICENSE) for detail.

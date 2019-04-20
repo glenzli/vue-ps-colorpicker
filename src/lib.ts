@@ -1,0 +1,1 @@
+export { PsColorpicker } from './components'
