@@ -1,7 +1,6 @@
 {
   "name": "vue-ps-colorpicker",
   "version": "1.0.0",
-  "private": true,
   "description": "A photoshope style color picker in vue.",
   "author": "luz-alphacode <luz_alphacode@outlook.com>",
   "scripts": {
