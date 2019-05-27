@@ -1,4 +1,7 @@
 # vue-ps-colorpicker
+![Build State](https://img.shields.io/travis/luz-alphacode/vue-ps-colorpicker.svg?style=flat-square)
+![License](https://img.shields.io/github/license/luz-alphacode/vue-ps-colorpicker.svg?color=%23333&style=flat-square)
+![Version](https://img.shields.io/github/package-json/v/luz-alphacode/vue-ps-colorpicker.svg?style=flat-square)
 vue-ps-colorpicker is Photoshop style colorpicker in vue.
 
 ## Install
