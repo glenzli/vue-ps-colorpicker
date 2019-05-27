@@ -31,7 +31,7 @@ The colorpicker also has a dark style, just add a dark class on the tag.
 ## Demo and Doc
 Build demo by
 ```sh
-npm run demo
+npm run build:demo
 ```
 You can view the demos on my [Github Pages](https://luz-alphacode.github.io/vue-ps-colorpicker/).
 
